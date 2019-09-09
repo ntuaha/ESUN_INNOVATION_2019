@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <!--
+            如果你看得到這段文字，就寄信來找我聊聊吧: ntuaha@gmail.com
+        -->
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="./css/bootstrap.css">
+
+        <title>玉山銀行創新競賽2019</title>
+        <link rel="stylesheet" href="./css/ei_2019.css">
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="./js/jquery-3.4.1.min.js"></script>
+        <script src="./js/popper.js"></script>
+        <script src="./js/bootstrap-3.4.1.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            
+            <step1 :show="show" :input_placeholder="input_placeholder" v-model:user_id="user_id" :banner_src="banner_src"></step1>
+
+            <step2-nav :choose="choose" :items="items" :show='show' :total_share='total_share'></step2-nav>
+            <step2 :show='show' :items="items" :vote_status='vote_status'></step2>
+            <step2-footer :choose="choose" :items="items" :show='show' :total_share='total_share'></step2-footer>
+
+            <alert-info :show="show" :msg="msg"></alert-info>
+            <div class="modal" tabindex="-1" role="dialog" id="myModal">
+                <modal-content :title="title" :content="content"></modal-content>
+            </div>
+            <thankyou :show="show" :info="info"><thankyou>
+            
+        </div>
+        <script src="./js/vue-2.6.10.js"></script>
+        <script src="./js/util.js"></script>
+        <script src="./js/ei_2019.js"></script>
+    </body>
+
+</html>

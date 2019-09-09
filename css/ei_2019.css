@@ -1,0 +1,40 @@
+.margin {
+    margin-top: 5px;
+}
+body{
+    background:#d9d9d9;
+}
+.card{
+    color:black;
+}
+.modal-content{
+    color:black;
+}
+.img_width{
+    width:100%;
+}
+.active{
+    background:#AAd9d9;
+}
+#step2_vote_list{
+    margin-top:40px;
+    margin-bottom:300px;
+
+}
+.brand{
+    color:white;                
+}
+.card-columns {
+    @include media-breakpoint-only(lg) {
+        column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+        column-count: 5;
+    }
+    @include media-breakpoint-only(sm) {
+        column-count: 2;
+    }
+    @include media-breakpoint-only(md) {
+        column-count: 2;
+    }
+}
