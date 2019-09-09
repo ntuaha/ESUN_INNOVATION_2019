@@ -21,5 +21,8 @@
 
 ### 架構說明
 
-1. esun_innocation_2019.html
-主要是為了讓投資者可以
+1. https://ntuaha.github.io/ESUN_INNOVATION_2019/esun_innovation_2019.html
+主要是為了讓投資者輸入自己的代碼之後，呈現所有的隊伍資訊，並可以在上面點選想要投資的金額與調整，並在送出之後檢查，是否已經都把資金用完．如果沒有，則系統會自動再跳回投資頁面，讓投資者可以繼續投資
+
+2. https://ntuaha.github.io/ESUN_INNOVATION_2019/dashboard.html
+呈現目前取得投資資金前六名的隊伍，並呈現目前投資活動總資金與已經投入資金的
